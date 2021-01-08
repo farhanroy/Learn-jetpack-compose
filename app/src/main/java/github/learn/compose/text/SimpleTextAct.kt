@@ -10,19 +10,24 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.setContent
-
+/*
+* Now, we will learn how to displaying text in jetpack compose
+*/
 class SimpleTextAct: AppCompatActivity() {
+    //
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-
+            // This code to centering text or another composable widget like as button, image
+            // and others. Basically, Column displaying content horizontally. To display content
+            // vertically you can use Row
             Column(
-                modifier = Modifier.fillMaxSize(),
-                verticalArrangement = Arrangement.Center,
-                horizontalAlignment = Alignment.CenterHorizontally,
-                content = {
-                    SimpleText("Learning jetpack compose")
-                }
+                    modifier = Modifier.fillMaxSize(),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    content = {
+                        SimpleText("Learning jetpack compose")
+                    }
             )
         }
     }
