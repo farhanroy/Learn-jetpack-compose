@@ -1,5 +1,5 @@
 # Learn Jetpack Compose
-![Compose Version](https://img.shields.io/badge/Compose-1.0.0--alpha09-brightgreen)
+![Travis](https://api.travis-ci.com/farhanroy/Learn-jetpack-compose.svg?branch=main&status=created ) ![Compose Version](https://img.shields.io/badge/Compose-1.0.0--alpha09-brightgreen)
 ###
 ![Feature Image](screenshots/repository_poster.jpg)
 ###
