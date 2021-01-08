@@ -5,6 +5,10 @@
 ###
 Repository for examples to learn jetpack compose
 
+|Example|Preview|
+|-------|-------|
+|[How do display text on the screen using Jetpack Compose?](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/text/SimpleTextActivity.kt)|<img src ="screenshots/simpletext.jpeg" width=214 height=500> |
+
 License
 -----------------
 
