@@ -40,4 +40,4 @@ class SimpleTextAct: AppCompatActivity() {
         // in your app.
         Text(text = displayText)
     }
-}
+}   
