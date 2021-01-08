@@ -1,0 +1,89 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "github.learn.compose"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        // Enables Jetpack Compose for this module
+        compose true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Set both the Java and Kotlin compilers to target Java 8.
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+        useIR = true
+    }
+
+    composeOptions {
+        kotlinCompilerVersion "${versions.kotlinCompilerVersion}"
+        kotlinCompilerExtensionVersion "${versions.compose}"
+    }
+}
+
+dependencies {
+// Kotlin
+    implementation deps.kotlinStdLib
+
+    // Support Libraries
+    implementation deps.support.appCompat
+    implementation deps.support.ktx
+    implementation deps.support.ktxViewModel
+    implementation deps.support.ktxLiveData
+    implementation deps.support.lifecycleExtensions
+
+    // CardView
+    implementation deps.cardView
+
+    // Constraint Layout
+    implementation deps.constraintLayout
+
+    // Coroutine
+    implementation deps.coroutine.core
+
+    // Compose
+    implementation deps.compose.composeRuntime
+    implementation deps.compose.core
+    implementation deps.compose.foundation
+    implementation deps.compose.tooling
+    implementation deps.compose.layout
+    implementation deps.compose.material
+    implementation deps.compose.materialRipple
+    implementation deps.compose.savedInstanceState
+    implementation deps.compose.uiLiveData
+    androidTestImplementation deps.compose.uiTest
+
+    // Image loading
+    implementation deps.imageLoading.picasso
+    implementation deps.imageLoading.glideCore
+
+    // Material Design
+    implementation deps.materialDesign
+
+    testImplementation deps.test.junit
+    androidTestImplementation deps.test.junitImplementation
+}
