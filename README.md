@@ -1,21 +1,30 @@
 # Learn Jetpack Compose
 ![Compose Version](https://img.shields.io/badge/Compose-1.0.0--alpha09-brightgreen)
 ###
+![Feature Image](screenshots/repository_poster.jpg)
+###
 Repository for examples to learn jetpack compose
 
 License
 -----------------
 
-    Copyright 2021 Farhan Roy
+                         GNU GENERAL PUBLIC LICENSE
+                          Version 3, 29 June 2007
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+         Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+         Everyone is permitted to copy and distribute verbatim copies
+         of this license document, but changing it is not allowed.
 
-       http://www.apache.org/licenses/LICENSE-2.0
+                                    Preamble
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+          The GNU General Public License is a free, copyleft license for
+        software and other kinds of works.
+
+          The licenses for most software and other practical works are designed
+        to take away your freedom to share and change the works.  By contrast,
+        the GNU General Public License is intended to guarantee your freedom to
+        share and change all versions of a program--to make sure it remains free
+        software for all its users.  We, the Free Software Foundation, use the
+        GNU General Public License for most of our software; it applies also to
+        any other work released this way by its authors.  You can apply it to
+        your programs, too.
