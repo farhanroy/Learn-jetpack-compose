@@ -4,7 +4,7 @@ sudo: required
 dist: trusty
 
 android:
-  components:
+  components: 
     - tools
     - platform-tools
     - build-tools-30.0.2
