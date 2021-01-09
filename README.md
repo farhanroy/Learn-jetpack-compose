@@ -1,5 +1,5 @@
 # Learn Jetpack Compose
-[![CircleCI](https://circleci.com/gh/farhanroy/Learn-jetpack-compose.svg)] ![Compose Version](https://img.shields.io/badge/Compose-1.0.0--alpha09-brightgreen)
+![CircleCI](https://circleci.com/gh/farhanroy/Learn-jetpack-compose.svg) ![Compose Version](https://img.shields.io/badge/Compose-1.0.0--alpha09-brightgreen)
 ###
 ![Feature Image](screenshots/repository_poster.jpg)
 ###
