@@ -32,6 +32,8 @@ class SimpleTextAct: AppCompatActivity() {
         }
     }
 
+    // To present the composable component, we must add @Composable annotation. each composable
+    // function is in turn built up of smaller composable functions.
     @Composable
     fun SimpleText(displayText: String) {
         // We should think of composable functions to be similar to lego blocks - each composable

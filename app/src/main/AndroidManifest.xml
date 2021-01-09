@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".text.SimpleTextAct"/>
+        <activity android:name=".material.AlertDialogAct"/>
     </application>
 
 </manifest>
