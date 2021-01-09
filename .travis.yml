@@ -12,7 +12,7 @@ android:
     - extra-android-m2repository
 
 jdk:
-  - openjdk8
+  - openjdk11
 
 notifications:
   email: false
