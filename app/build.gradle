@@ -39,6 +39,10 @@ android {
         useIR = true
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     composeOptions {
         kotlinCompilerVersion "${versions.kotlinCompilerVersion}"
         kotlinCompilerExtensionVersion "${versions.compose}"
