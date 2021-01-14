@@ -79,6 +79,7 @@ dependencies {
     implementation deps.compose.materialRipple
     implementation deps.compose.savedInstanceState
     implementation deps.compose.uiLiveData
+    implementation 'androidx.ui:ui-tooling:1.0.0-alpha07'
     androidTestImplementation deps.compose.uiTest
 
     // Image loading
