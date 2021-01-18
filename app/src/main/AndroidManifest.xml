@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".text.SimpleTextAct"/>
         <activity android:name=".material.AlertDialogAct"/>
+        <activity android:name=".image.ImageAct"/>
+        <activity android:name=".animation.Animation1Act"/>
     </application>
 
 </manifest>
