@@ -7,7 +7,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "github.learn.compose"
+        applicationId "github.learn.waclone"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -16,33 +16,23 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildFeatures {
-        // Enables Jetpack Compose for this module
-        compose true
-    }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
-    // Set both the Java and Kotlin compilers to target Java 8.
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
     kotlinOptions {
         jvmTarget = '1.8'
         useIR = true
     }
-
-    lintOptions {
-        abortOnError false
+    buildFeatures {
+        compose true
     }
-
     composeOptions {
         kotlinCompilerVersion "${versions.kotlinCompilerVersion}"
         kotlinCompilerExtensionVersion "${versions.compose}"
@@ -50,25 +40,10 @@ android {
 }
 
 dependencies {
-// Kotlin
-    implementation deps.kotlinStdLib
 
-    // Support Libraries
-    implementation deps.support.appCompat
-    implementation deps.support.ktx
-    implementation deps.support.ktxViewModel
-    implementation deps.support.ktxLiveData
-    implementation deps.support.lifecycleExtensions
-
-    // CardView
-    implementation deps.cardView
-
-    // Constraint Layout
-    implementation deps.constraintLayout
-
-    // Coroutine
-    implementation deps.coroutine.core
-
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
     // Compose
     implementation deps.compose.composeRuntime
     implementation deps.compose.core
@@ -81,15 +56,8 @@ dependencies {
     implementation deps.compose.uiLiveData
     implementation deps.compose.navigation
 
-    androidTestImplementation deps.compose.uiTest
-
-    // Image loading
-    implementation deps.imageLoading.picasso
-    implementation deps.imageLoading.glideCore
-
-    // Material Design
-    implementation deps.materialDesign
-
-    testImplementation deps.test.junit
-    androidTestImplementation deps.test.junitImplementation
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha06'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }

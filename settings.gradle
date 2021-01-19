@@ -1,2 +1,3 @@
 rootProject.name = "Learn Compose"
 include ':app'
+include ':waclone'
