@@ -28,7 +28,7 @@ buildscript {
                     'composeRuntime': "androidx.compose.runtime:runtime:${versions.compose}",
                     'core': "androidx.compose.ui:ui:${versions.compose}",
                     'foundation': "androidx.compose.foundation:foundation:${versions.compose}",
-                    'tooling': "androidx.ui:ui-tooling:${versions.compose}",
+                    'tooling': "androidx.compose.ui:ui-tooling:${versions.compose}",
                     'layout': "androidx.compose.foundation:foundation-layout:${versions.compose}",
                     'material': "androidx.compose.material:material:${versions.compose}",
                     'materialRipple': "androidx.compose.material:material-ripple:${versions.compose}",

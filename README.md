@@ -9,8 +9,16 @@ Repository for examples to learn jetpack compose
 |-------|-------|
 |[How do display text on the screen using Jetpack Compose?](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/text/SimpleTextActivity.kt)|<img src ="screenshots/simpletext.jpeg" width=214 height=500> |
 |[Make Alert Dialog in Jetpack Compose ](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/material/AlertDialog.kt)|<img src ="screenshots/alertdialog.gif" width=214 height=400> |
-
 |[Animating your components in Jetpack Compose ](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/animation/Animation1Act.kt)|<img src ="screenshots/animation1.gif" width=214 height=400> |
+#
+## State Management
+
+State management in jetpack compose is so easy. In my opinion, like as Bloc in flutter. Because we must stream value in livedata
+
+
+|Example|Preview|
+|-------|-------|
+|[Simply managing state in jetpack compose (Statful composable)](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/state/SimpleState.kt)|<img src ="screenshots/simplestate.gif" width=214 height=500> |
 
 License
 -----------------
