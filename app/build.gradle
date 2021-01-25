@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-// Kotlin
+    // Kotlin
     implementation deps.kotlinStdLib
 
     // Support Libraries

@@ -20,6 +20,7 @@
         <activity android:name=".material.AlertDialogAct"/>
         <activity android:name=".image.ImageAct"/>
         <activity android:name=".animation.Animation1Act"/>
+        <activity android:name=".navigation.SimpleNavigationAct"/>
     </application>
 
 </manifest>

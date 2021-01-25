@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LearnCompose</string>
+    <string name="screen1">Screen1</string>
+    <string name="screen2">Screen2</string>
 </resources>

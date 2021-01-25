@@ -1,13 +1,12 @@
 package github.learn.compose.core
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.ui.platform.setContent
-import github.learn.compose.R
 import github.learn.compose.animation.Animation1Act
 import github.learn.compose.material.AlertDialogAct
-import github.learn.compose.state.SimpleState
+import github.learn.compose.navigation.SimpleNavigationAct
 import github.learn.compose.text.SimpleTextAct
 
 class MainAct : AppCompatActivity() {
@@ -15,9 +14,10 @@ class MainAct : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             // Route
-            SimpleState.Page()
+            toSimpleNavigation()
         }
     }
+
 
     fun toSimpleText() {
         startActivity(Intent(this, SimpleTextAct::class.java))
@@ -29,5 +29,9 @@ class MainAct : AppCompatActivity() {
 
     fun toAnimation1() {
         startActivity(Intent(this, Animation1Act::class.java))
+    }
+
+    fun toSimpleNavigation() {
+        startActivity(Intent(this, SimpleNavigationAct::class.java))
     }
 }
