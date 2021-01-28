@@ -18,7 +18,14 @@ State management in jetpack compose is so easy. In my opinion, like as Bloc in f
 
 |Example|Preview|
 |-------|-------|
-|[Simply managing state in jetpack compose (Statful composable)](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/state/SimpleState.kt)|<img src ="screenshots/simplestate.gif" width=214 height=500> |
+|[Simply managing state in jetpack compose (Statful composable)](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/state/SimpleState.kt)|<img src ="screenshots/simplestate.gif" width=280 height=496> |
+
+#
+## Material Design
+Material design in jetpack compose 
+|Example|Preview|
+|-------|-------|
+|[Navigation drawer using scaffold in jetpack compose ](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/material/NavigationDrawerAct.kt)|<img src ="screenshots/navigationdrawer.gif" width=280 height=496> |
 
 License
 -----------------

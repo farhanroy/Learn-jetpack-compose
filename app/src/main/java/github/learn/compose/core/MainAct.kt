@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.ui.platform.setContent
 import github.learn.compose.animation.Animation1Act
 import github.learn.compose.material.AlertDialogAct
+import github.learn.compose.material.NavigationDrawerAct
 import github.learn.compose.navigation.SimpleNavigationAct
 import github.learn.compose.text.SimpleTextAct
 
@@ -14,7 +15,7 @@ class MainAct : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             // Route
-            toSimpleNavigation()
+            toNavigationDrawer()
         }
     }
 
@@ -33,5 +34,9 @@ class MainAct : AppCompatActivity() {
 
     fun toSimpleNavigation() {
         startActivity(Intent(this, SimpleNavigationAct::class.java))
+    }
+
+    fun toNavigationDrawer() {
+        startActivity(Intent(this, NavigationDrawerAct::class.java))
     }
 }
