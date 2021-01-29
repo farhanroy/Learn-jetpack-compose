@@ -11,6 +11,13 @@ Repository for examples to learn jetpack compose
 |[Make Alert Dialog in Jetpack Compose ](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/material/AlertDialog.kt)|<img src ="screenshots/alertdialog.gif" width=214 height=400> |
 |[Animating your components in Jetpack Compose ](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/animation/Animation1Act.kt)|<img src ="screenshots/animation1.gif" width=214 height=400> |
 #
+## Navigation
+Navigating page to another page easily in jetpack compose. It's like startActivity intent 
+|Example|Preview|
+|-------|-------|
+|[Simply managing state in jetpack compose (Statful composable)](https://github.com/vinaygaba/Learn-Jetpack-Compose-By-Example/blob/master/app/src/main/java/com/example/jetpackcompose/navigation/SimpleNavigationAct.kt)|<img src ="screenshots/simplenavigation.gif" width=280 height=496> |
+
+#
 ## State Management
 
 State management in jetpack compose is so easy. In my opinion, like as Bloc in flutter. Because we must stream value in livedata

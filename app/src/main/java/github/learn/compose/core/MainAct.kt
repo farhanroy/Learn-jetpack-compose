@@ -15,7 +15,7 @@ class MainAct : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             // Route
-            toNavigationDrawer()
+            toSimpleNavigation()
         }
     }
 
