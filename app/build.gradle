@@ -53,6 +53,9 @@ dependencies {
     // Kotlin
     implementation deps.kotlinStdLib
 
+    // Activity Compose
+    implementation deps.activityCompose
+
     // Support Libraries
     implementation deps.support.appCompat
     implementation deps.support.ktx

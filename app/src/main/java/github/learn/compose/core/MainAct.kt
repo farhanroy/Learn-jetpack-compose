@@ -2,8 +2,8 @@ package github.learn.compose.core
 
 import android.content.Intent
 import android.os.Bundle
+import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.ui.platform.setContent
 import github.learn.compose.animation.Animation1Act
 import github.learn.compose.material.AlertDialogAct
 import github.learn.compose.material.NavigationDrawerAct
